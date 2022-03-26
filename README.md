@@ -8,9 +8,16 @@
   - adding '-d' is called dry run and shows you what the folder structure will look like without generating anything
   - **ng g c myNewComponent -d**
 
-- ### Pro tip
+- ### Pro tips
 
-- use <pre>{{ courses | json }}</pre> to display json data on the screen
+  - use <pre>{{ courses | json }}</pre> to display json data on the screen
+
+  - #### Button Click Events
+
+    - < button
+      (click)="deleteCourse(course.id); $event.stopImmediatePropagation()"
+
+    - $event.stopImmediatePropagation() -> stops the DOM from selecting the target and event bubbling up the tree
 
 - ### Install Angular Material
 

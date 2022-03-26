@@ -27,7 +27,17 @@ export class CoursesComponent implements OnInit {
     },
   ];
 
+  selectedCourse = null;
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  selectCourse(course) {
+    this.selectedCourse = course;
+  }
+
+  deleteCourse(courseId) {
+    alert('deleteCourse' + courseId);
+  }
 }
