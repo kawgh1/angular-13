@@ -17,7 +17,8 @@
     - < button
       (click)="deleteCourse(course.id); **$event.stopImmediatePropagation()**"
 
-    - `$event.stopImmediatePropagation()` -> stops the DOM from selecting the target and event bubbling up the tree
+      - `$event.stopImmediatePropagation()` -> stops the DOM from selecting the target and event bubbling up the tree
+      - Avoid unintended DOM effects
 
 - ### Install Angular Material
 
