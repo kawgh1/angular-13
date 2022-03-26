@@ -10,14 +10,14 @@
 
 - ### Pro tips
 
-  - use <pre>{{ courses | json }}</pre> to display json data on the screen
+  - use **`<pre>{{ courses | json }}</pre>`** to display json data on the screen
 
   - #### Button Click Events
 
     - < button
-      (click)="deleteCourse(course.id); $event.stopImmediatePropagation()"
+      (click)="deleteCourse(course.id); **$event.stopImmediatePropagation()**"
 
-    - $event.stopImmediatePropagation() -> stops the DOM from selecting the target and event bubbling up the tree
+    - `$event.stopImmediatePropagation()` -> stops the DOM from selecting the target and event bubbling up the tree
 
 - ### Install Angular Material
 
