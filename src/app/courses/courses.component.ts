@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./courses.component.scss'],
 })
 export class CoursesComponent implements OnInit {
+  // 1. Render courses in a list
+  // 2. Select a course
+  // 3. Render selected course
+
   courses = [
     {
       id: 1,

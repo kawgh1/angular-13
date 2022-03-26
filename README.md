@@ -8,6 +8,10 @@
   - adding '-d' is called dry run and shows you what the folder structure will look like without generating anything
   - **ng g c myNewComponent -d**
 
+- ### Pro tip
+
+- use <pre>{{ courses | json }}</pre> to display json data on the screen
+
 - ### Install Angular Material
 
   - **ng add @angular/material**
