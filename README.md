@@ -1,4 +1,29 @@
-# Angular 13 Fundamentals Workshop
+# Angular Notes
+
+- ### Create New Component
+
+  - **ng generate componenet myNewComponent**
+  - same as:
+    - **ng g c myNewComponent**
+  - adding '-d' is called dry run and shows you what the folder structure will look like without generating anything
+  - **ng g c myNewComponent -d**
+
+- ### Install Angular Material
+
+  - **ng add @angular/material**
+
+- ### Test
+  - **ng test**
+
+---
+
+---
+
+---
+
+---
+
+---
 
 ![Angular 13 Fundamentals Workshop App](src/assets/screenshots/demo.png)
 
